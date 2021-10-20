@@ -241,12 +241,24 @@ variable "fence_engine_version" {
   default = "9.6.11" 
 }
 
+variable "fence_engine_paramgroup" {
+  default = "postgres9.6" 
+}
+
 variable "sheepdog_engine_version" {
   default = "9.6.11"
 }
 
+variable "sheepdog_engine_paramgroup" {
+  default = "postgres9.6"
+}
+
 variable "indexd_engine_version" {
   default = "9.6.11" 
+}
+
+variable "indexd_engine_paramgroup" {
+  default = "postgres9.6" 
 }
 
 variable "fence_auto_minor_version_upgrade" {
