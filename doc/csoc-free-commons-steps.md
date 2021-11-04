@@ -40,6 +40,8 @@ SQS
 EKS
 ```
 
+For the scripts to work gracefully the EC2 should be an Ubuntu 18.04 installation. 
+
 Additionally, we recommend requesting a SSL certificate for the domain you are going to use to access your commons through AWS certificate manager before moving on because you'll need it later.
 
 
